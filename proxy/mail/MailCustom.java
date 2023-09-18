@@ -4,7 +4,7 @@ import data.Data;
 import utils.AccessType;
 
 public class MailCustom extends MailImpl {
-    public final static String TOKEN = "%s-%i";
+    public final static String TOKEN = "%s-%d";
     public static int tokenNumber = 0;
 
     public MailCustom() {
